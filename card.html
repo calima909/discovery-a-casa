@@ -1,0 +1,112 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: rgb(255, 255, 255);
+            
+        }
+        .tab
+        {
+            /* margin: auto; */
+            width: 400px;
+            text-align: center;
+            height: auto;
+            border: 0;
+            box-shadow: 1px 1px 3px 3px rgb(189, 181, 181);
+            
+        }
+
+        .name
+        {
+            font-size: 35px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .level
+        {
+            font-size: 20px;
+            color: grey;
+            margin: 0;
+        }
+
+        .sede
+        {
+            font-size: 20px;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .link
+        {
+            width: 50px;
+            height: auto;
+        }
+        /* .link2
+        {
+            width: 50px;
+            height: auto;
+            margin-left: 50px;
+        } */
+    </style>
+</head>
+<body>
+    <center>
+        <h1>fikachu 42</h1>
+        <table class = "tab">
+            <tr>
+                <td><img src = "https://m.media-amazon.com/images/I/512w5R0TzRL._AC_SL1500_.jpg" alt = "pikaciu" width="300px"></td>
+            </tr>
+            <tr>
+                <td><p class = "name">fchiocci</p></td>
+            </tr>
+            <tr>
+                <td><p class = "level">level over 9000</p></td>
+            </tr>
+            <tr>
+                <td><p class = "sede">42Firenze</p></td>
+            </tr>
+            <tr>
+                <td><img src = "https://www.centromedicoviola.it/wp-content/uploads/2018/11/FaceBook-icona.png" alt = "FB" class = "link"></td>
+                <td><img src = "https://img.icons8.com/windows/512/instagram-new.png" alt = "instagram" class = "link"></td>
+            </tr>
+        </table>
+    </center> 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background</title>
+	<style>
+		body
+        {
+			background-color: #ffffff;
+		}
+		button
+        {
+			padding: 20px 30px;
+			font-size: 16px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="changeBackgroundColor()">Click me!</button>
+    
+	<script>
+		function changeBackgroundColor()
+        {
+			var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+			document.body.style.backgroundColor = randomColor;
+		}
+	</script>
+</body>
+</html>
